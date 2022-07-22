@@ -3,7 +3,7 @@
 <head>
     <meta charset ="UTF-8">
     <title>Contato - barbearia do John</title>
-    <link rel= stylestheet href="reset.css">
+    <link rel= "stylesheet" href="reset.css">
     <link rel ="stylesheet" href="style.css">
 </head>
 
@@ -24,15 +24,40 @@
     <main>
         <form>
             <label for="nomeSobrenome">Nome e Sobrenome</label>
-            <input type="text" id="nomeSobrenome">
+            <input type="text" id="nomeSobrenome" class="input-padrao">
 
             <label for="email">Email</label>
-            <input type="text" id="email">
+            <input type="text" id="email" class="input-padrao">
 
             <label for="tel">Telefone</label>
-            <input type="text" id="tel">
+            <input type="text" id="tel" class="input-padrao">
 
-            <input type="submit" value ="Enviar Formulário">
+            <label for="mensagem">Mensagem</label>
+            <textarea cols = "70" rows="10" id ="mensagem" class="input-padrao"></textarea>
+            
+            <div>
+                <p>Como prefere o nosso contato?</p>
+                <label class="radio-padrao"><input type ="radio" name ="contato">Email</label>
+                
+                <label class="radio-padrao"> <input type ="radio" name ="contato">Telefone</label>
+               
+
+                <label class="radio-padrao"><input type ="radio" name ="contato">Whatsapp</label>
+                
+            </div>
+
+            <div class="horarioAtendimento">
+                <p>Qual horário prefere ser atendido?</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </div>
+
+            <label class ="checkbox"><input type ="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+    
+            <input type="submit" value ="Enviar Formulário" class="envioDeFormulario">
 
         </form>
     </main>

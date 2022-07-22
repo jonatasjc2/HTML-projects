@@ -1,3 +1,4 @@
+/*Aqui começa um código compartilhado entre todas as páginas*/
 header{
     background-color: #BBBBBB;
     padding: 20px 0;
@@ -35,7 +36,9 @@ nav a:hover{
     font-size: 23px;
 
 }
+/*Aqui acaba o codígo compartilhado entre todas a páginas*/
 
+/*Aqui se encontra o código apenas da página produtos*/
 .products {
     width: 940px;
     margin: 0 auto;
@@ -79,7 +82,9 @@ nav a:hover{
     font-weight: bold;
     
 }   
+/*Aqui acaba  o código exclusivo da página produtos*/
 
+/*Aqui se encontra o código compartilhado entre todas as páginas*/
 footer{
     text-align: center;
     background: url("bg.jpg");
@@ -91,3 +96,44 @@ footer{
     font-size: 13px;
     margin-top: 20px;
 }
+/*Aqui acaba código compartilhado entre todas as páginas*/
+
+
+/*Aqui se encontra o código da página contatos*/
+main{
+    width: 990px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    font-size: 20px;
+    display: block; 
+}
+
+.input-padrao{
+    margin: 12px 0 15px;
+    display: block;
+    padding: 14px 26px;
+    width: 50%;
+}
+
+.radio-padrao{
+    margin-top: 15px;
+    text-align: left;
+}
+
+.checkbox{
+    margin-top: 28px;
+}
+.envioDeFormulario{
+    margin-top: 28px;
+}
+
+.horarioAtendimento{
+    margin-top: 32px;    
+}
+/*Aqui acaba o código da página contatos*/

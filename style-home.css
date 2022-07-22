@@ -1,4 +1,5 @@
-.principal-head{
+/*Aqui começa o código da página home*/
+.second-head{
     padding-left: 20px;
 }
 
@@ -45,3 +46,26 @@ ul{
 
     width: 50%;
 }
+
+#linkAcessoPagProdutos{
+    text-align: left;
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+/* Aqui acaba o código da página Home*/
+
