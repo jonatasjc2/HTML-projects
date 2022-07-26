@@ -109,7 +109,7 @@ form{
     margin: 40px 0;
 }
 
-form label, form p{
+form label, form legend{
     font-size: 20px;
     display: block; 
 }
@@ -134,6 +134,9 @@ form label, form p{
 }
 
 .horarioAtendimento{
-    margin-top: 32px;    
+    margin-top: 32px;
+}
+.horarioAtendimento select{
+margin-top: 12px;  
 }
 /*Aqui acaba o código da página contatos*/
