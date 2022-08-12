@@ -1,4 +1,7 @@
 /*Aqui começa um código compartilhado entre todas as páginas*/
+body{
+    font-family: 'Inter', sans-serif;
+}
 header{
     background-color: #BBBBBB;
     padding: 20px 0;
@@ -38,7 +41,102 @@ nav a:hover{
 }
 /*Aqui acaba o codígo compartilhado entre todas a páginas*/
 
-/*Aqui se encontra o código apenas da página produtos*/
+/*INDEX - Aqui começa o código da página principal*/
+
+.banner{
+    width:100%;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-weight: italic;
+}
+
+.principal{
+    background: #FEFEFE;
+    text-align: justify;
+    margin: 14px 0 auto;
+    display: block;
+    line-height: 28px;
+    font-size: 20px;
+    width: 940px;
+    margin:0 auto;
+
+}
+
+.principal-head-text{
+    font-size: 2em;
+    text-align: center;
+    margin: 0 0 1em;
+    clear:left;
+    margin-top: 35px;
+}
+
+.imagemUtensilios{
+    width: 120px;
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.maps{
+    padding: 3em 0;
+    background-color: orangered;
+}
+.maps-conteudo{
+    width:940px;
+    margin:0 auto;
+}
+.maps p{
+    text-align: center;
+    margin: 0 0 2em 0;
+}
+
+.beneficios{
+    background: #888888;
+    line-height: 28px;
+    font-size: 20px;
+    padding: 3em 0;
+    
+}
+
+.beneficios h3{
+    font-size: 26px;
+    margin: 21px 0;
+    font-weight: bold;
+}
+
+.conteudo-beneficios{
+    width:640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+.imagemDosBeneficios{
+    width: 60%;
+}
+
+.video{
+    width: 560px;
+    margin: 2em auto;
+}
+
+/*Aqui acaba o codígo da página principal*/
+
+/*PRODUTOS - Aqui se encontra o código apenas da página produtos*/
 .products {
     width: 940px;
     margin: 0 auto;
@@ -99,7 +197,7 @@ footer{
 /*Aqui acaba código compartilhado entre todas as páginas*/
 
 
-/*Aqui se encontra o código da página contatos*/
+/*CONTATOS - Aqui se encontra o código da página contatos*/
 main{
     width: 990px;
     margin: 0 auto;
@@ -129,14 +227,50 @@ form label, form legend{
 .checkbox{
     margin-top: 28px;
 }
-.envioDeFormulario{
-    margin-top: 28px;
-}
 
 .horarioAtendimento{
     margin-top: 32px;
 }
 .horarioAtendimento select{
 margin-top: 12px;  
+}
+
+.envioDeFormulario{
+    margin-top: 28px;
+    width: 35%;
+    padding: 18px 0;
+    background-color: grey;
+    color:#FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+}
+.envioDeFormulario:hover{
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: rgb(68, 67, 67);
+    transition: 1s all;
+    cursor: pointer;
+    transform: scale(1.07);
+}
+
+table{
+    /*espaçamento externo*/
+    margin: 20px 0 40px;
+    /* margin: cima lados abaixo;*/
+}
+
+thead{
+    background: #555555;
+    color:white;
+    font-weight: bold;
+}
+
+td,th {
+    border: 1px solid #000000;
+    /*espaçamento interno*/
+    padding: 8px 15px;
+    /*padding: Cima e Baixo lateral;*/
 }
 /*Aqui acaba o código da página contatos*/
