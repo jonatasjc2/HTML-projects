@@ -1,3 +1,3 @@
 # HTML-projects
-Repositório para armazenamento de arquivos contendo linguagem de marcação HTML
+Repositório para armazenamento de arquivos contendo linguagem de marcação HTML e CSS
 
