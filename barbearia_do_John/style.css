@@ -65,17 +65,16 @@ nav a:hover{
     display: block;
     line-height: 28px;
     font-size: 20px;
-    width: 940px;
-    margin:0 auto;
-
 }
 
 .principal-head-text{
+
     font-size: 2em;
     text-align: center;
     margin: 0 0 1em;
     clear:left;
     margin-top: 35px;
+    color:rgba(0, 0, 0, 0.89);
 }
 
 .imagemUtensilios{
@@ -86,19 +85,16 @@ nav a:hover{
 
 .maps{
     padding: 3em 0;
-    background-color: orangered;
+    background: linear-gradient(#FEFEFE, #888888);
 }
-.maps-conteudo{
-    width:940px;
-    margin:0 auto;
-}
+
 .maps p{
     text-align: center;
     margin: 0 0 2em 0;
 }
 
 .beneficios{
-    background: #888888;
+    background: linear-gradient(#888888,#FEFEFE);
     line-height: 28px;
     font-size: 20px;
     padding: 3em 0;
@@ -121,19 +117,33 @@ nav a:hover{
     display: inline-block;
     vertical-align: top;
 }
+.itens:before{
+    content: "✦";
+}
 
 .itens:first-child {
     font-weight: bold;
 }
 .imagemDosBeneficios{
     width: 60%;
+    transition: 400ms;
+    box-shadow:10px 12px 5px #000000;
+}
+
+.imagemDosBeneficios:hover{
+    opacity: 0.85;
 }
 
 .video{
     width: 560px;
     margin: 2em auto;
+    opacity: 0.91;
+    transition: 400ms;
 }
 
+.video:hover{
+   opacity: 1;
+}
 /*Aqui acaba o codígo da página principal*/
 
 /*PRODUTOS - Aqui se encontra o código apenas da página produtos*/
@@ -198,7 +208,7 @@ footer{
 
 
 /*CONTATOS - Aqui se encontra o código da página contatos*/
-main{
+.enquadramento{
     width: 990px;
     margin: 0 auto;
 }
@@ -274,3 +284,21 @@ td,th {
     /*padding: Cima e Baixo lateral;*/
 }
 /*Aqui acaba o código da página contatos*/
+
+/*estilo diferente para celulares*/
+
+@media screen and (max-width: 450px){
+    .caixa, .principal, .enquadramento, .conteudo-beneficios, .video{
+        width: auto;
+    }
+
+     h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .lista-beneficios, .imagemDosBeneficios{
+        width: 100%;
+    }
+}
